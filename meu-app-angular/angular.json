@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "meu-primeiro-app": {
+    "meu-app-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "meu-primeiro-app:build:production"
+              "buildTarget": "meu-app-angular:build:production"
             },
             "development": {
-              "buildTarget": "meu-primeiro-app:build:development"
+              "buildTarget": "meu-app-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,5 +88,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "dc8d379b-f553-47e6-b2fc-3034dcfe3f83"
   }
 }
